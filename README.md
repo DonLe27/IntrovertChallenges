@@ -11,3 +11,6 @@ Features:
 Registers and stores user information, including email
 Sends users a randomly selected Introvert Challenge from a file every hour
 
+Current goals: 
+Ways for users to modify when they get emails. Categorizing introvert challenges based off difficulty and allowing users to choose category. 
+
