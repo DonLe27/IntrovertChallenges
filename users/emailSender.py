@@ -9,7 +9,7 @@ def email_sender(emailAddress):
     challengeChoice = random.randint(1, introvertChallenges.numberOfChallenges())
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login("donle22599@gmail.com", "mfaijkr7")
+    server.login("donle22599@gmail.com", "password")
 
     msg = introvertChallenges.switch_demo(challengeChoice);
     server.sendmail("donle22599@gmail.com", emailAddress, msg)
